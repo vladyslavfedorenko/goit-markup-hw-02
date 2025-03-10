@@ -20,8 +20,9 @@ color: #404BBF;
   color: #434455;
   text-decoration: none;
 }
-  background-color: #2E2F42;  
-}
+ .central{
+  background-color: #2E2F42;
+}  
 .footer{
   background-color: #2E2F42;
 }
