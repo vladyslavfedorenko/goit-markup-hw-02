@@ -1,5 +1,5 @@
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
 }
@@ -79,7 +79,7 @@ body {
 
 .central-button {
   background-color: #4D5AE5;
-  font-family:"roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -129,6 +129,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
 
 .team-people {
@@ -213,7 +214,7 @@ body {
 }
 
 .footer .link {
-    font-family: "roboto", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color:#F4F4FD;
