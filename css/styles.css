@@ -1,28 +1,89 @@
-.header-nav .link{
-  font-family: roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-text-decoration: none;
-color: #2E2F42;
+body {
+  font-family: roboto, sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
 }
+
+.logo {
+  color: #2E2F42;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  line-height: 1.17;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: #4D5AE5;
+}
+
+.header-nav .link {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+  color: #2E2F42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .header-nav .link:hover,
 .header-nav .link:focus {
-color: #404BBF;
+  color: #404BBF;
 }
+
 .header-nav .link:active {
   text-decoration: underline
 }
+
 .contacts .link {
-  font-family: roboto;
+  font-family: roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #434455;
   text-decoration: none;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #404bbf;
+}
+
  .central{
   background-color: #2E2F42;
 }  
+
+.central-title {
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  font-size: 56px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.central-button {
+  background-color: #4D5AE5;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.central-button:hover,
+.central-button:focus {
+  background-color: #404BBF;
+} 
+
 .footer{
-  background-color: #2E2F42;
+  background-color: #65656d;
 }
