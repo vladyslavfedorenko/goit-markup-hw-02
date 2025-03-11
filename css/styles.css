@@ -1,21 +1,29 @@
 body {
-  font-family: roboto, sans-serif;
+  font-family: "roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
 }
-
+/*header*/
 .logo {
-  color: #2E2F42;
-  font-family: raleway, sans-serif;
-  font-weight: 700;
-  line-height: 1.17;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
+    color: #4D5AE5;
+    font-family: "raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.logo-web {
-  color: #4D5AE5;
+.logo-studio {
+    color: #2E2F42;
+    font-family: "raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .header-nav .link {
@@ -39,7 +47,7 @@ body {
 }
 
 .contacts .link {
-  font-family: roboto, sans-serif;
+  font-family: "roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #434455;
@@ -49,6 +57,7 @@ body {
   letter-spacing: 0.02em;
 }
 
+/*section 1*/
 .contacts .link:hover,
 .contacts .link:focus {
   color: #404bbf;
@@ -59,7 +68,7 @@ body {
 }  
 
 .central-title {
-  font-family: roboto, sans-serif;
+  font-family: "roboto", sans-serif;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -70,7 +79,7 @@ body {
 
 .central-button {
   background-color: #4D5AE5;
-  font-family: inherit;
+  font-family:"roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -84,6 +93,130 @@ body {
   background-color: #404BBF;
 } 
 
+/*section 2*/
+.skils-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.skils-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*section 3*/
+.team {
+  background-color: #F4F4FD;
+}
+
+.team-list {
+  background-color: #FFFFFF;
+}
+
+.team-title {
+  font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.team-people {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+}
+
+/*section 4*/
+
+.section-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.portfolio-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.portfolio-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*footer*/
+
 .footer{
-  background-color: #65656d;
+  background-color: #2e2f42;
+}
+
+.footer .logo {
+  color: #4D5AE5;
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-decoration: none;
+  text-transform: uppercase;
+ 
+}
+
+.footer .logo-studio {
+  color: #F4F4FD;
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.footer .link {
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
