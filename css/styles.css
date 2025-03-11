@@ -6,7 +6,7 @@ body {
 /*header*/
 .logo {
     color: #4D5AE5;
-    font-family: "raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -17,7 +17,7 @@ body {
 
 .logo-studio {
     color: #2E2F42;
-    font-family: "raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -46,13 +46,16 @@ body {
   text-decoration: underline
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .contacts .link {
   font-family: "roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #434455;
   text-decoration: none;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -204,7 +207,7 @@ body {
 
 .footer .logo-studio {
   color: #F4F4FD;
-  font-family: "raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -214,7 +217,7 @@ body {
 }
 
 .footer .link {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color:#F4F4FD;
